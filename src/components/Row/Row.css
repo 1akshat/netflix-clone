@@ -1,6 +1,6 @@
 .row_images_container {
   display: flex;
-  width: 100%;
+  width: 97%;
   overflow-y: hidden;
   overflow-x: scroll;
   padding: 20px;
@@ -8,6 +8,11 @@
 
 .row_images_container::-webkit-scrollbar {
   display: none;
+}
+
+.row_title {
+  color: white;
+  margin-left: 20px;
 }
 
 .poster_image {
@@ -19,6 +24,19 @@
 }
 
 .poster_image:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.poster_image_large {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  transition: transform 450ms;
+  margin-right: 10px;
+}
+
+.poster_image_large:hover {
   transform: scale(1.08);
   opacity: 1;
 }

@@ -4,7 +4,7 @@ import "./Row.css";
 
 const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/original";
 
-const Row = ({ title, fetchUrl }) => {
+const Row = ({ title, fetchUrl, isLargeThumbnail = false }) => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
@@ -15,11 +15,9 @@ const Row = ({ title, fetchUrl }) => {
     fetchUrlData();
   }, [fetchUrl]);
 
-  console.table(movies);
-
   return (
     <>
-      {title}
+      <h2 className="row_title">{title}</h2>
       <div className="row_images_container">
         {movies.map((movie) => (
           <img
