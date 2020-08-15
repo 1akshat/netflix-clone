@@ -15,22 +15,22 @@
   margin-left: 20px;
 }
 
-.poster_image {
+.poster_image_backdrop {
   width: 100%;
-  max-height: 300px;
+  max-height: 150px;
   object-fit: contain;
   transition: transform 450ms;
   margin-right: 10px;
 }
 
-.poster_image:hover {
+.poster_image_backdrop:hover {
   transform: scale(1.08);
   opacity: 1;
 }
 
-.poster_image_large {
+.poster_image_poster {
   width: 100%;
-  max-height: 400px;
+  max-height: 300px;
   object-fit: contain;
   transition: transform 450ms;
   margin-right: 10px;

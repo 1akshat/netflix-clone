@@ -15,14 +15,21 @@ const Row = ({ title, fetchUrl, isLargeThumbnail = false }) => {
     fetchUrlData();
   }, [fetchUrl]);
 
+  console.table(movies);
+
   return (
     <>
       <h2 className="row_title">{title}</h2>
       <div className="row_images_container">
         {movies.map((movie) => (
           <img
-            className="poster_image"
-            src={`${IMAGE_BASE_URL}${movie.poster_path}`}
+            key={movie.id}
+            className={`poster_image_backdrop ${
+              isLargeThumbnail && "poster_image_poster"
+            }`}
+            src={`${IMAGE_BASE_URL}${
+              isLargeThumbnail ? movie.poster_path : movie.backdrop_path
+            }`}
             alt={movie.name}
           />
         ))}
