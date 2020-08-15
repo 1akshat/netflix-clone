@@ -21,6 +21,7 @@
   object-fit: contain;
   transition: transform 450ms;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .poster_image_backdrop:hover {
@@ -34,6 +35,7 @@
   object-fit: contain;
   transition: transform 450ms;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .poster_image_large:hover {
