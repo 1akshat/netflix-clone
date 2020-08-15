@@ -15,8 +15,6 @@ const Row = ({ title, fetchUrl, isLargeThumbnail = false }) => {
     fetchUrlData();
   }, [fetchUrl]);
 
-  console.table(movies);
-
   return (
     <>
       <h2 className="row_title">{title}</h2>

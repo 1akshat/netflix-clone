@@ -3,10 +3,12 @@ import "./App.css";
 
 import Row from "./components/Row/Row";
 import Requests from "./utils/consts";
+import Banner from "./components/Banner/Banner";
 
 const App = () => {
   return (
     <div className="app">
+      <Banner />
       <Row
         title="NETFLIX ORIGINALS"
         fetchUrl={Requests.netflixOriginalsMovies}
