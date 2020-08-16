@@ -15,4 +15,4 @@ Visit [website](https://netflix-clone-82105.web.app/).
 
 # Preview
 
-![Netflix clone](https://i.ibb.co/cgMNHFb/Screenshot.png)
+![Netflix clone](https://i.ibb.co/cgMNHFb/Screenshot.png)![Trailer Preview](https://i.ibb.co/n6KbfFq/Screenshot.png)
