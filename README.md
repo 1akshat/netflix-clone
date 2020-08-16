@@ -9,7 +9,6 @@ Visit [website](https://netflix-clone-82105.web.app/).
 - React Js (Development)
   - Functional Components
   - Hooks (useState, useEffect.)
-  - Event Handling
   - Event Handling (scroll event, onClick event)
 - Deployment
   - Firebase
